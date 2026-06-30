@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Estilo Livre</title>
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold fs-4" href="#">
+                    Barbearia Estilo Livre
+                </a>
+                <!-- Botão do menu -->
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuNavbar"
+                aria-controls="menuNavbar"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navegação -->
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a> 
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="pt-5 pt-lg-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <!-- Conteúdo -->
+                    <div class="col-12 col-lg-6">
+                        <h1 class="text-center">Seu estilo começa aqui</h1>
+                        <p>
+                        Na Barbearia Estilo Livre, cada corte é pensado para valorizar sua personalidade.
+                        Conte com profissionais experientes, ambiente moderno e atendimento de qualidade.
+                        </p>
+
+                        <a href="#contato" class="btn btn-outline-light btn-lg">Agende seu horário</a>
+                    </div>
+
+                    <!-- Imagem -->
+                    <div class="col-12 col-lg-6">
+                        <img
+                        src="img/logo.jpg"
+                        class="img-fluid w-75 mx-auto d-block"
+                        alt="Logo da Barbearia Estilo Livre">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <!-- Imagem -->
+                    <div class="col-12 col-md-6">
+                        <img
+                            src="img/barbearia.jpg"
+                            class="img-fluid rounded shadow"
+                            alt="Interior da Barbearia Estilo Livre">
+                    </div>
+
+                    <!-- Texto -->
+                    <div class="col-12 col-md-6">
+                        <h2 class="text-center mb-4">Sobre a Barbearia</h2>
+
+                        <p>
+                            A Barbearia Estilo Livre oferece um ambiente moderno,
+                            confortável e preparado para proporcionar uma experiência
+                            diferenciada aos clientes.
+                        </p>
+
+                        <p>
+                            Nossa equipe é formada por profissionais qualificados,
+                            sempre atentos às tendências e comprometidos com um
+                            atendimento de qualidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="py-5 bg-dark text-white">
+            <div class="container">
+                <h2 class="text-center mb-5">Nossos Serviços</h2>
+             
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Corte de Cabelo</h5>
+                                <p class="card-text">
+                                    Cortes modernos e clássicos para todos os estilos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Barba</h5>
+                                <p class="card-text">
+                                    Aparo e modelagem da barba com acabamento profissional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Hidratação</h5>
+                                <p class="card-text">
+                                    Tratamento para manter os fios saudáveis e bem cuidados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                                
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Pigmentação</h5>
+                                <p class="card-text">
+                                    Realce da cor dos fios para um visual renovado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Depoimentos</h2>
+                <div 
+                    id="carouselDepoimentos"
+                    class="carousel slide"
+                    data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="text-center">
+                                <p class="lead">
+                                    "Excelente atendimento! Ambiente agradável e profissionais muito competentes."
+                                </p>
+
+                                <h5>Carlos Silva</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="text-center">
+                                <p class="lead">
+                                    "Melhor barbearia da região! Sempre saio muito satisfeito com o resultado."
+                                </p>
+
+                                <h5>João Pereira</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="text-center">
+
+                                <p class="lead">
+                                    "Atendimento impecável e ambiente muito confortável. Recomendo!"
+                                </p>
+
+                                <h5>Lucas Almeida</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselDepoimentos"
+                        data-bs-slide="prev">
+
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselDepoimentos"
+                        data-bs-slide="next">
+                    
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+    
+            </div>
+
+        </div>
+        </section>
+
+        <section id="contato" class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 class="text-center mb-5">Entre em Contato</h2>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nome"
+                                    placeholder="Digite seu nome">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Digite seu e-mail">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                
+                                <textarea
+                                    class="form-control"
+                                    id="mensagem"
+                                    rows="5"
+                                    placeholder="Escreva sua mensagem"></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-dark">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2026 Barbearia Estilo Livre</p>
+    </footer>
+
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
