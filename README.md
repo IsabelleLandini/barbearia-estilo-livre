@@ -76,9 +76,9 @@ barbearia-estilo-livre/
 
 ## 📸 Preview
 
-```md
+
 ![Preview da Barbearia Estilo Livre](img/preview.png)
-```
+
 
 ---
 
